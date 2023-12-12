@@ -1,6 +1,6 @@
 body{
 	padding-left:20px;
-	background-image:url("cvbg.png");
+	background-image:url("images/cvbg.png");
 	background-repeat:none;
 	background-size:cover;
 	font-family: Helvetica;
@@ -28,22 +28,24 @@ body{
 	transition:1s;
 	box-shadow:5px 3px 3px 5px gray;
 }
-.top{
+.nb{
 	display:block;
 }
 
 .nb h1{
 	font-size:50px;
-	padding-top:25px;
+	padding-top:8px;
 	transition:1s;
+	font-family:Trebuchet MS;
 }
 .nb h1:hover{
 	font-size:53px;
 	text-shadow:2px 2px 5px gray;
 }
 .nb p{
-	width:1200px;
-	font-size:23px;
+	width:1100px;
+	font-size:25px;
+	line-height:45px;
 }
 .nb{
 	margin-top: 40px;
@@ -67,6 +69,7 @@ body{
 .et table{
 	width:1250px;
 	border:solid black;
+	margin-bottom:60px;
 }
 .et table td{
 	font-size: 25px;
@@ -93,35 +96,47 @@ body{
 	white-space: pre-wrap;
 	width: 1200px;
 }
-.skills h2{
-	margin-bottom:-20px;
-}
-.sc{
+.sc1{
 	display:flex;
 	flex-direction:row;
-	
+	margin-top:-20px;
 }
-.sc ul li{
+.sc1 ul{
+	margin-left:60px;
+}
+.sc1 ul li{
 	font-size:30px;
 }
-.sc h3{
+.sc1 h3{
 	font-size:30px;
 	text-align:center;
 	text-decoration:underline;
 }
 .sc2{
-	margin-left:150px;
+	display:flex;
+	flex-direction:row;
+	margin-top:-20px;
+	
+}
+.sc2 ul li{
+	font-size:30px;
+}
+.sc2 h3{
+	font-size:30px;
+	text-align:center;
+	text-decoration:underline;
+}
+.sc2{
+	margin-left:120px;
 	border-left:solid 4px #28282B;
-}
-.pr{
-	margin-left:60px;
-	border-left:solid 0.5px #28282B;
-}
-.sc1 ul{
-	margin-left:60px;
+	
 }
 .csk h3{
 	margin-left:210px;
+}
+.pr{
+	margin-left:-10px;
+	border-left:solid 0.5px #28282B;
 }
 button{
 	background-color:#28282B;
@@ -177,13 +192,14 @@ button:hover{
 }
 
 .bg{
-	font-size:40px;
+	font-size:32px;
 	background-color:#28282B;
 	color:#efefee;
 	margin-left:-50px;
 	padding-left:50px;
 	padding-top:10px;
 	padding-bottom:10px;
+	font-family:Trebuchet MS;
 }
 .bg:hover{
 	background-color:transparent;
